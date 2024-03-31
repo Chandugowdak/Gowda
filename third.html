@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seshadripuram degree college form</title>
+    <link rel="stylesheet" href="third.css">
+</head>
+<body ><header>
+
+    <pre class="head"><b>SESHADRIPURAM DEGREE College MYSURE
+ ADMISSON FORM</b>
+    </pre></pre> 
+  
+
+                            
+  
+</header>
+<main class="mai">
+
+   <form>
+   <p>Name * :  <input *type="text" name = "name" placeholder="Enter your name" class="Name" required></p>
+   <p>Phone Number * :  <input *type="number"name="Phone Number" placeholder="Enter your number" class="Num" required></p>
+   <p> Date of Birth * : <input type="date" name="Date" placeholder="Enter your date of birth"  class="Num" required> </p> 
+   <p>Father Name * : <input type ="text" placeholder="Enter your father Name" name="Parent name" id="Parent"required></p>
+    <p>Mother Name * : <input type ="text" placeholder="Enter your Mother Name" name="Parent name" id="Parent"required></p>
+   <p> Adress * :  <input type ="Text" name = "  Adress" placeholder="Enter your Present Adress" class="Ad"required></p>  
+   <h2 class="co">Select Gender</h2>
+   <div class="qulif">
+    <input type="radio" name="gender" value="male" id="male"required>
+    <label for="male"  id="male">Male</label>
+
+    <input type="radio" name="gender" value="female" id="female"required>
+    <label for="female">Female</label> 
+</div>
+        <h2 class="co">Combination of Course</h2>
+          <select name="Course"    id="se">
+    <option  value ="Course">Course</option>
+    <option value="B.C.A">B.C.A</option>
+    <option value="B.C.A">B.Com</option>
+    <option value="B.C.A">B.B.A</option>
+</select>
+
+
+
+<br>
+<br>
+
+<h3 class="qu">Qulification Information</h3>
+<div class="qulif">
+<input type="radio" name="stream" id="science" value="Science">
+<label for="science">Science</label><br>
+<select name="combination" value="Combination" id="se" >
+    <option value="combi" class="pc">Combination</option>
+    <option value="PCMB" class="pc">PCMB</option>
+    <option value="PCMC" class="pc">PCMC</option>
+</select>
+<br>
+<br>
+
+
+
+<input type="radio" name="stream" id="commerce" value="Commerce">
+<label for="commerce">Commerce</label><br>
+<select name="combination" value="Combination" id="se">
+    <option value="combi" class="pc">Combination</option>
+    <option value="ECBA" class="pc">ECBA</option>
+    <option value="ECBS" class="pc">ECBS</option>
+</select>
+<br>
+<br>
+<input type="radio" name="stream" id="arts" value="Arts">
+<label for="arts">Arts</label><br>
+
+<select name="combination" value="Combination" id="se">
+    <option value="combi" class="pc">Combination</option>
+    <option value="EBGS" class="pc">EBGS</option>
+    <option value="EBGK" class="pc">EBGK</option>
+</select>
+
+</div>
+
+<br>
+<P>Total Marks * : <input type="Number" name="marks" placeholder="Enter the marks" class="Num"required></p>
+<p>Percentage  * : <input  type="Percentage" name="per" placeholder="Ener in Percentage form" class="Num"required></p>
+<p>College you Studed  *  : <input type="Text" name="coll" placeholder="Enter your Previes college" class="Num"required></p>
+<br>
+
+ <input type="submit" Name="Submit" value= "SUBMIT" class="sub" id="sub">
+</form> 
+</main>
+
+<br>
+<br>
+<br>
+<hr>
+<footer class="foo" >
+ <span>Feed Back :   <input  class="fe" type="text" name ="FeeaBack" placeholder="Give Us Your Valuable Feed Back" ></span>
+  <p><b> Contect Us : </b><a href="">hackerbrogowda143@gmail.com</a></p>  
+ <span><a href="">MOR information</a></span> 
+</footer>
+</body>
+<script>
+    let ob = document.getElementById('sub').addEventListener('click',function(){
+        let conf =confirm("Are You Sure To Submit The Form");
+        console.log(conf);
+        if(conf==true){
+   
+   window.location.href="Finish.html";
+        }
+        else {
+            alert("Form Has Not Subitted")
+        }
+   })
+</script>
+
+</html>
+  
